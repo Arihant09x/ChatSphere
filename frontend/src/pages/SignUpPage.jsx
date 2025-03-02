@@ -4,7 +4,7 @@ import { MessageSquare } from "lucide-react";
 import { Eye, EyeOff, Loader2, Lock, Mail, User } from "lucide-react";
 import { Link } from "react-router-dom";
 import toast from "react-hot-toast";
-import AuthImagePattern from "../components/AuthImagePattern";
+
 const SignUpPage = () => {
   const [showPassword, setShowPassword] = useState(false);
   const [formData, setFormData] = useState({
