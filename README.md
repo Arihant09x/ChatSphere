@@ -31,20 +31,23 @@ To get a local copy up and running, follow these simple steps:
    ```bash
    cd ChatApp
    ```
+3. Configure environment variables:
 
-3. Install the dependencies:
+      Create .env file in backend directories
+      Add necessary configurations (MONGO_URI, PORT,JWT_SECRET,CLOUDINARY_CLOUD_NAME,CLOUDINARY_API_KEY ,CLOUDINARY_API_SECRET.)
+4. Install the dependencies:
 
    ```bash
    npm build
    ```
 
-4. Start the development server:
+5. Start the development server:
 
    ```bash
    npm start
    ```
 
-5. Open your browser and visit `http://localhost:3000` to see the application in action.
+6. Open your browser and visit `http://localhost:5173` to see the application in action.
 
 ## Screenshots
 
@@ -63,7 +66,7 @@ To get a local copy up and running, follow these simple steps:
 ## Usage
 
 Once the application is running, you can:
-
+- **Access the**: application at https://chatsphere-f5oi.onrender.com/login
 - **Sign Up**: Create a new account to start chatting.
 - **Log In**: Access your account and start messaging.
 - **Navigate**: Use the navigation bar to access different sections of the app.
