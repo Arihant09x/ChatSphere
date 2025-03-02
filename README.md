@@ -33,8 +33,8 @@ To get a local copy up and running, follow these simple steps:
    ```
 3. Configure environment variables:
 
-      Create .env file in backend directories
-      Add necessary configurations (MONGO_URI, PORT,JWT_SECRET,CLOUDINARY_CLOUD_NAME,CLOUDINARY_API_KEY ,CLOUDINARY_API_SECRET.)
+      -Create .env file in backend directories
+      -Add necessary configurations (MONGO_URI, PORT,JWT_SECRET,CLOUDINARY_CLOUD_NAME,CLOUDINARY_API_KEY ,CLOUDINARY_API_SECRET.)
 4. Install the dependencies:
 
    ```bash
