@@ -35,13 +35,13 @@ To get a local copy up and running, follow these simple steps:
 3. Install the dependencies:
 
    ```bash
-   npm install
+   npm build
    ```
 
 4. Start the development server:
 
    ```bash
-   npm run dev
+   npm start
    ```
 
 5. Open your browser and visit `http://localhost:3000` to see the application in action.
